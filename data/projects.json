@@ -1,0 +1,113 @@
+[
+  {
+    "nome": "CAPAU",
+    "descricao": "Jogo digital de estratégia com mapa do Egito Antigo, escolha de jogadores, construções e recursos.",
+    "categoria": "Jogos",
+    "imagem": "",
+    "site": "https://opaulofelipe.github.io/capau/",
+    "github": "https://github.com/opaulofelipe/capau",
+    "tecnologias": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "status": "Em desenvolvimento",
+    "ano": 2026,
+    "destaque": true
+  },
+  {
+    "nome": "Palavras Cruzadas Humanas",
+    "descricao": "Jogo responsivo de palavras cruzadas sobre História e Ciências Humanas, com teclado virtual e geração dinâmica.",
+    "categoria": "História",
+    "imagem": "",
+    "site": "https://opaulofelipe.github.io/cruzadashumanas/",
+    "github": "https://github.com/opaulofelipe/cruzadashumanas",
+    "tecnologias": [
+      "JavaScript",
+      "JSON",
+      "CSS"
+    ],
+    "status": "Publicado",
+    "ano": 2026,
+    "destaque": true
+  },
+  {
+    "nome": "Tabuleiro Digital",
+    "descricao": "Tabuleiro interativo para jogos de estratégia com construções, estradas, portos, dados e seleção de jogadores.",
+    "categoria": "Jogos",
+    "imagem": "",
+    "site": "https://opaulofelipe.github.io/tabuleirodigital/",
+    "github": "https://github.com/opaulofelipe/tabuleirodigital",
+    "tecnologias": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "status": "Publicado",
+    "ano": 2026,
+    "destaque": true
+  },
+  {
+    "nome": "Objetivos 8 Empires",
+    "descricao": "Sorteador minimalista de cartas de objetivo para o jogo 8 Empires, com animação simples de sorteio.",
+    "categoria": "Jogos",
+    "imagem": "",
+    "site": "https://opaulofelipe.github.io/objetivos8empires/",
+    "github": "https://github.com/opaulofelipe/objetivos8empires",
+    "tecnologias": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "status": "Publicado",
+    "ano": 2026,
+    "destaque": false
+  },
+  {
+    "nome": "Regras 8 Empires",
+    "descricao": "Manual digital responsivo do boardgame 8 Empires, com cartas, custos, bônus, objetivos e regras de posicionamento.",
+    "categoria": "Jogos",
+    "imagem": "",
+    "site": "https://opaulofelipe.github.io/regras8empires/",
+    "github": "https://github.com/opaulofelipe/regras8empires",
+    "tecnologias": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "status": "Publicado",
+    "ano": 2026,
+    "destaque": false
+  },
+  {
+    "nome": "Lista de Mercado",
+    "descricao": "Aplicação simples e minimalista para criar, concluir e remover itens de uma lista de compras.",
+    "categoria": "Ferramentas",
+    "imagem": "",
+    "site": "https://opaulofelipe.github.io/listademercado/",
+    "github": "https://github.com/opaulofelipe/listademercado",
+    "tecnologias": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "status": "Publicado",
+    "ano": 2026,
+    "destaque": false
+  },
+  {
+    "nome": "D20 Digital",
+    "descricao": "Dado de vinte faces digital com foco em interação rápida para sessões de RPG e jogos de mesa.",
+    "categoria": "Jogos",
+    "imagem": "",
+    "site": "https://opaulofelipe.github.io/d20dado/",
+    "github": "https://github.com/opaulofelipe/d20dado",
+    "tecnologias": [
+      "JavaScript",
+      "CSS"
+    ],
+    "status": "Publicado",
+    "ano": 2026,
+    "destaque": false
+  }
+]
