@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hub de projetos de Paulo Felipe — jogos, História, dados, ferramentas e experimentos digitais." />
+  <meta name="theme-color" content="#111111" />
+  <title>Paulo Felipe — Projetos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Ir para o início">
+        <span class="brand-mark">PF</span>
+        <span class="brand-copy">
+          <strong>Paulo Felipe</strong>
+          <small>Projetos digitais</small>
+        </span>
+      </a>
+
+      <a class="github-profile" href="https://github.com/opaulofelipe" target="_blank" rel="noreferrer">
+        GitHub
+        <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">PORTFÓLIO / LABORATÓRIO</p>
+          <h1 id="hero-title">Projetos, jogos, estudos e ferramentas em um só lugar.</h1>
+          <p class="hero-text">
+            Uma coleção de aplicações publicadas no GitHub Pages, organizada para acesso rápido e experimentação direta.
+          </p>
+        </div>
+
+        <div class="hero-stat" aria-label="Quantidade de projetos">
+          <span id="project-count">0</span>
+          <small>projetos publicados</small>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="Filtros dos projetos">
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" />
+          </svg>
+          <input id="search-input" type="search" placeholder="Buscar projeto, categoria ou tecnologia..." autocomplete="off" />
+        </div>
+
+        <select id="sort-select" aria-label="Ordenar projetos">
+          <option value="featured">Destaques primeiro</option>
+          <option value="name">Nome A–Z</option>
+          <option value="recent">Mais recentes</option>
+        </select>
+      </section>
+
+      <nav id="category-filters" class="category-filters" aria-label="Categorias"></nav>
+
+      <section id="featured-section" class="projects-section" aria-labelledby="featured-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">SELEÇÃO</p>
+            <h2 id="featured-title">Destaques</h2>
+          </div>
+          <p>Projetos selecionados para acesso rápido.</p>
+        </div>
+        <div id="featured-grid" class="project-grid featured-grid"></div>
+      </section>
+
+      <section class="projects-section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">ACERVO</p>
+            <h2 id="projects-title">Todos os projetos</h2>
+          </div>
+          <p id="results-label">Carregando projetos...</p>
+        </div>
+
+        <div id="projects-grid" class="project-grid"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <strong>Nenhum projeto encontrado.</strong>
+          <span>Tente outro termo ou categoria.</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Paulo Felipe — GitHub Pages Hub</p>
+      <a href="https://github.com/opaulofelipe" target="_blank" rel="noreferrer">github.com/opaulofelipe ↗</a>
+    </footer>
+  </div>
+
+  <template id="project-card-template">
+    <article class="project-card">
+      <div class="project-cover">
+        <img class="project-image" alt="" loading="lazy" />
+        <div class="cover-fallback" aria-hidden="true">
+          <span class="fallback-category"></span>
+          <strong class="fallback-initials"></strong>
+        </div>
+        <div class="card-topline">
+          <span class="status-badge"></span>
+          <span class="featured-badge">Destaque</span>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <div class="project-meta">
+          <span class="project-category"></span>
+          <span class="project-year"></span>
+        </div>
+        <h3 class="project-title"></h3>
+        <p class="project-description"></p>
+        <div class="tech-list"></div>
+        <div class="card-actions">
+          <a class="btn btn-primary project-live" target="_blank" rel="noreferrer">Abrir projeto <span>↗</span></a>
+          <a class="btn btn-ghost project-code" target="_blank" rel="noreferrer">Código</a>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
